@@ -1,0 +1,135 @@
+:root{
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display:block;
+    text-align: center;
+    margin-left: 20px;
+    margin-right:20px;
+}
+h1{font-size: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: var(--VeryDarkMagenta);
+}
+header p {
+    color: var(--DarkGrayishMagenta);
+}
+.cajones{
+    text-align:center;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    
+}
+.cajon1{
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    height: 70px;
+    
+}
+
+.cajon2{
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    height: 70px;
+    margin-top: 20px;
+   
+}
+.cajon3{
+    background-color: var(--LightGrayishMagenta);
+    border-radius: 10px;
+    height: 70px;
+    margin-top: 20px;
+}
+.cajones img{
+    margin-top:15px;
+    margin-left:5px;
+}
+ 
+.cajones p{
+    color: var(--VeryDarkMagenta);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+      
+}
+
+.perfiles{ 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.perfil1{
+    background-color: var(--VeryDarkMagenta);
+    border-radius: 5px;
+    height: 200px;
+    margin-top:20px;
+}
+.perfil2{
+    background-color: var(--VeryDarkMagenta);
+    border-radius: 5px;
+    height: 200px;
+    margin-top:10px;
+}
+.perfil3{
+    background-color: var(--VeryDarkMagenta);
+    border-radius: 5px;
+    height: 200px;
+    margin-top:10px;
+    margin-bottom:40px
+}
+
+.cabperfil1{
+    display:flex;
+}
+.cabperfil2{
+    display:flex;
+}
+.cabperfil3{
+    display:flex;
+}
+.cabperfil1 img {
+    border-radius: 50%;
+    height: 30px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.cabperfil2 img {
+    border-radius: 50%;
+    height: 30px;
+    margin-top:20px;
+    margin-left:20px;
+}
+.cabperfil3 img {
+    border-radius: 50%;
+    height: 30px;
+    margin-top:20px;
+    margin-left:20px;
+}
+span{
+    display:block;
+    color: var(--SoftPink);
+    font-size:10px;
+}
+h4{
+    margin-left:20px;
+    color:var(--White);
+    font-size:15px;
+}
+p{
+    color:var(--White);
+    font-size:15px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
