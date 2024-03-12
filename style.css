@@ -133,3 +133,69 @@ p{
     margin-bottom: 20px;
     
 }
+@media screen and (min-width: 1444px) {
+    body{
+        position:relative;
+        
+    }
+    header{
+        position: absolute;
+        right:1180px;
+        height: 140px;
+        width: 400px;
+        display: block;
+        
+        
+    }
+    h1{
+        font-size: 60px;
+    }
+    .perfiles{
+        display: flex;
+        
+        justify-content: space-between;
+        width: 1300px;
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+    .perfil1{
+        margin-left:70px;
+       
+    }
+    .perfil2{
+        margin-left:70px;
+        margin-top: 40px;
+    }
+    .perfil3{ 
+        margin-left:70px;
+        margin-top: 80px;  
+    }
+    .cajones{
+        margin-left: 1000px;
+        margin-right: 190px;
+        border-radius: 30px;
+        margin-top: 200px;
+        
+        
+       
+    }
+    .estrellas{
+        display:flex;
+        
+    }  
+    
+    .cajones p{
+        display: flex;
+        margin-left:150px;
+    }
+    .cajon1{
+        margin-right: 60px;
+    }
+    .cajon2{
+        margin-right: 30px;
+        margin-left:30px;
+    }
+    .cajon3{
+    margin-left:60px;
+    }
+}
